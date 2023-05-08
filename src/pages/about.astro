@@ -10,34 +10,50 @@ import Hero from '../components/Hero.astro';
 		<main class="wrapper about">
 			<Hero
 				title="À propos"
-				tagline="Merci d'être passé. Apprenez-en plus sur moi et mon background en dessous."
+				tagline="Apprenez-en plus sur moi et mon parcours en dessous."
 			>
-				<img
-					width="1553"
-					height="873"
-					src="/assets/at-work.jpg"
-					alt="..."
-				/>
 			</Hero>
 
 			<section>
-				<h2 class="section-title">Background</h2>
+				<h2 class="section-title">Expériences</h2>
 				<div class="content">
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-					</p>
+					<div>
+						<h5>Projet tutoré</h5>
+						<span class="exp-sub-info">OpenClassrooms - 2021</span>
+						<ul>
+							<li>Transformation d'une maquette en site web avec HTML et CSS</li>
+							<li>Dynamiser une page web avec des animations CSS</li>
+							<li>Optimisation d'un site web existant</li>
+							<li>Création d'un site e-commerce en JavaScript</li>
+							<li>Création d'une application web de location immobilière avec React</li>
+						</ul>
+					</div>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Formation</h2>
 				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
+					<div>
+						<h5>Développeur Intégrateur Web</h5>
+						<span class="exp-sub-info">OpenClassrooms - 2023</span>
+					</div>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Compétences</h2>
 				<div class="content">
-					<p>officia unde omnis</p>
+					<div>
+						<h5>JavaScript</h5>
+						<span class="exp-sub-info">React.JS - Express.JS - Node.JS</span>
+					</div>
+					<div>
+						<h5>SGBD</h5>
+						<span class="exp-sub-info">MySQL - MongoDB</span>
+					</div>
+					<div>
+						<h5>Autres</h5>
+						<span class="exp-sub-info">GIT</span>
+					</div>
 				</div>
 			</section>
 		</main>
@@ -47,6 +63,12 @@ import Hero from '../components/Hero.astro';
 </BaseLayout>
 
 <style>
+
+	.exp-sub-info {
+		font-style: italic;
+		font-size: medium;
+	}
+
 	.about {
 		display: flex;
 		flex-direction: column;
