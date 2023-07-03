@@ -10,4 +10,5 @@ tags:
     - React JS
 ---
 
-> Coming soon.
+## Consulter le Pokédex
+Vous pourrez tester le projet à l'adresse suivante :  [Pokédex React JS](https://aaronrand-pokedex.netlify.app/)
